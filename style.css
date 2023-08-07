@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    min-height: 100vh;
+
+
+}
+
+.container {
+    width: 500px;
+    margin: 40px 0;
+    border-radius: 7px;
+    background: #68182B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    justify-content: start;
+    border-bottom: 1px solid #d8cbbd;
+}
+
+.header img {
+    padding: 18px 0 5px;
+    width: 40px;
+
+}
+
+.header h2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 18px 0 5px;
+    color: #d8cbbd
+}
+
+.content {
+    margin: 25px 20px 35px;
+}
+
+.word {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-right: -24px;
+    text-transform: uppercase;
+    letter-spacing: 24px;
+    color: #FFFFFF;
+}
+
+.details {
+    margin: 25px 0 20px;
+}
+
+.details p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #d8cbbd;
+}
+
+.details p span {
+    font-weight: 400;
+    font-size: 10px;
+
+}
+
+.details p b {
+    font-weight: 500;
+
+}
+
+
+
+.content input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d8cbbd;
+
+}
+
+.content .buttons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.buttons button {
+    font-size: 15px;
+    padding: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: calc(100% / 2 - 15px);
+}
+
+.buttons .refresh-word {
+    background: #39B78A;
+
+
+}
+
+.buttons .check-word {
+    background: #588ae7;
+
+
+}
+
+
+
+@media screen and (max-width:600px) {
+
+
+    .container {
+        background: #68182B;
+        width: 300px;
+        margin: 10px;
+        color: #d8cbbd;
+    }
+
+
+    .word {
+        font-size: 18px;
+
+    }
+
+
+
+
+
+    span {
+        font-size: 10px;
+
+    }
+
+    .buttons button {
+        font-size: 10px;
+        padding: 10px 0;
+
+    }
+
+}
