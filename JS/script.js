@@ -28,6 +28,8 @@ const initTimer = maxTime => {
 };
 
 
+
+
 const initGame=()=>{
     initTimer(30)
     let randomObj=kelimeler[Math.floor(Math.random()*kelimeler.length)];          
@@ -36,9 +38,14 @@ const initGame=()=>{
         let j=Math.floor(Math.random() * (i+1));
         [wordArray[i],wordArray[j]]=[wordArray[j],wordArray[i]];
     }
+
    wordText.innerText=wordArray.join("");
-   if (wordArray.length > 10) {
-    wordText.style.fontSize = "20px";
+   if (wordArray.length > 8){
+    wordText.style.fontSize = "15px";
+   
+   }
+   else if(wordArray.length > 12){
+    wordText.style.fontSize = "10px";
    }
    hintText.innerText=randomObj.ipucu;
    correctWord=randomObj.kelime.toLowerCase();

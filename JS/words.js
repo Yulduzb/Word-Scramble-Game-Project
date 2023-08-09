@@ -1,5 +1,5 @@
 const kelimeler = [
-    { kelime: "telefon", ipucu: "Çoğunlukla iletişim kurmak ve arama yapmak için kullanılan taşınabilir elektronik cihaz." },
+    { kelime: "telefon", ipucu: "Çoğunlukla iletişim kurmak  kullanılan taşınabilir  cihaz." },
     { kelime: "kitap", ipucu: "Birçok sayfası olan ve bilgi veya hikaye içeren basılı veya dijital yayın." },
     { kelime: "araba", ipucu: "Motorlu taşıt, özellikle dört tekerlekli ve özel veya ticari kullanım için tasarlanmış olan." },
     { kelime: "ev", ipucu: "Bir kişinin yaşamak veya barınmak için kullandığı yer." },
@@ -11,7 +11,6 @@ const kelimeler = [
     { kelime: "kalem", ipucu: "Yazı yazmak veya çizim yapmak için kullanılan araç." },
     { kelime: "gözlük", ipucu: "Görme yeteneğini düzeltmek veya korumak için kullanılan optik araç." },
     { kelime: "yıldız", ipucu: "Gökyüzünde parlak nokta şeklinde görünen astronomik nesne." },
-    { kelime: "yemek", ipucu: "Yemek pişirmek ve yemek için kullanılan besinlerin genel adı." },
     { kelime: "hastane", ipucu: "Sağlık hizmetleri ve tıbbi tedavi sunan sağlık kurumu." },
     { kelime: "oyun", ipucu: "Eğlenmek, rekabet etmek veya amaçlı etkinliklerle zaman geçirmek için yapılan faaliyet." },
     { kelime: "kuşatma", ipucu: "Bir şehri veya kaleyi kuşatarak kontrol altına alma eylemi." },
@@ -267,7 +266,7 @@ const kelimeler = [
 { kelime: "modernizasyon", ipucu: "Geleneksel bir şeyi çağdaş standartlara göre güncelleme süreci." },
 { kelime: "perspektif", ipucu: "Bir nesneyi veya durumu belirli bir bakış açısıyla değerlendirme." },
 { kelime: "haberdarlık", ipucu: "Bir konuda bilgi sahibi olma durumu." },
-{ kelime: "sürdürülebilir", ipucu: "Uzun süre devam edebilen veya çevreye zarar vermeyen." },
+
 { kelime: "elektrikli", ipucu: "Elektrik enerjisiyle çalışan veya çalışan cihaz veya araç." },
 { kelime: "kontrat", ipucu: "İki veya daha fazla taraf arasında yapılan resmi anlaşma." },
 { kelime: "kişisel", ipucu: "Bir kişiye özgü veya onunla ilgili olan." },
@@ -276,7 +275,7 @@ const kelimeler = [
 { kelime: "malzeme", ipucu: "Bir ürünün yapımında kullanılan madde veya materyal." },
 { kelime: "çalışkanlık", ipucu: "Çalışma ve çaba gösterme niteliği." },
 { kelime: "harmoni", ipucu: "Uyumlu bir şekilde bir araya gelme ve uyum oluşturma durumu." },
-{ kelime: "misafirperverlik", ipucu: "Misafirlere karşı hoşgörülü ve sıcak davranma durumu." },
+
 { kelime: "milliyetçilik", ipucu: "Bir millete aidiyet ve bağlılık duygusu." },
 { kelime: "dönüşüm", ipucu: "Bir şeyin biçimini veya yapıını değiştirme süreci." },
 { kelime: "parlamento", ipucu: "Temsilcilerin toplandığı ve yasama görevini yaptığı meclis." },
@@ -292,7 +291,7 @@ const kelimeler = [
 { kelime: "kararlılık", ipucu: "Sürekli ve istikrarlı olma durumu." },
 { kelime: "anlamlandırma", ipucu: "Bir şeyin anlamını çıkarma veya yorumlama süreci." },
 { kelime: "vazgeçilmez", ipucu: "Vazgeçilmesi zor veya imkansız olan şey." },
-{ kelime: "sürdürülebilirlik", ipucu: "Uzun süre devam edebilme ve çevreye zarar vermemeye odaklanma." },
+
 { kelime: "haberleşme", ipucu: "Bilgi veya mesajların aktarılması veya iletilmesi süreci." },
 { kelime: "entegrasyon", ipucu: "Farklı bileşenleri bir araya getirme ve birlikte çalışma süreci." },
 { kelime: "rehberlik", ipucu: "Bir kişinin yol gösterme ve destek sağlama süreci." },

@@ -11,8 +11,9 @@
 body {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: #FFFFFF;
+    justify-content:space-between;
+    flex-direction: column;
+    background: #2F2FA2;
     min-height: 100vh;
 
 
@@ -20,9 +21,10 @@ body {
 
 .container {
     width: 500px;
-    margin: 40px 0;
+    margin:100px 0 40px 0;
     border-radius: 7px;
-    background: #68182B;
+    background: #FFFFFF;
+    color: #242582;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
 }
@@ -45,7 +47,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     padding: 18px 0 5px;
-    color: #d8cbbd
+
 }
 
 .content {
@@ -54,12 +56,12 @@ body {
 
 .word {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     margin-right: -24px;
     text-transform: uppercase;
     letter-spacing: 24px;
-    color: #FFFFFF;
+
 }
 
 .details {
@@ -67,20 +69,21 @@ body {
 }
 
 .details p {
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
     margin-bottom: 10px;
-    color: #d8cbbd;
+
+
 }
 
 .details p span {
-    font-weight: 400;
-    font-size: 10px;
+    font-weight: 500;
+    font-size: 12px;
 
 }
 
 .details p b {
-    font-weight: 500;
+    font-weight: 600;
 
 }
 
@@ -94,7 +97,7 @@ body {
     padding: 0 16px;
     border-radius: 5px;
     border: none;
-    background-color: #d8cbbd;
+   background: rgb(220, 214, 214);
 
 }
 
@@ -129,23 +132,46 @@ body {
 
 
 
+.telif-hakki{
+    color: #d8cbbd;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:600px) {
 
 
     .container {
-        background: #68182B;
         width: 300px;
-        margin: 10px;
-        color: #d8cbbd;
+       margin-top: 100px;
+       
+
     }
 
 
     .word {
-        font-size: 18px;
+        font-size: 15px;
+        letter-spacing: 15px;
 
     }
 
+    .details p {
+        font-size: 12px;
+        margin-bottom: 10px;
 
+    }
+
+    input{
+        font-size: 12px;
+    }
 
 
 

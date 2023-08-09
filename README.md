@@ -9,4 +9,4 @@ HTML
 CSS
 Javascript
 
-![](/Image/WordGame.gif)
+![](KelimeOyunu.gif)
